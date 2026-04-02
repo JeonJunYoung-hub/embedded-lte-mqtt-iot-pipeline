@@ -4,6 +4,14 @@ An embedded-to-cloud system that collects environmental data using Nordic nRF915
 
 ---
 
+## Full Documentation
+
+For detailed implementation and full technical documentation:
+
+[📄 View Full Technical Guide (Google Drive)](https://docs.google.com/document/d/1_5Lt2o4yYnwDdJkwNVkzcrS0I1ZkqhTu/edit?usp=sharing&ouid=100431925273316780165&rtpof=true&sd=true)
+
+---
+
 ## Overview
 
 This project is a custom embedded system designed to collect environmental data such as PM, CO2, temperature, and humidity, and transmit it to a cloud backend in real time.
@@ -78,8 +86,4 @@ Sensor → nRF9151 → LTE → MQTT Broker (EMQX) → GCP → MongoDB
 
 ---
 
-## Full Documentation
 
-For detailed implementation and full technical documentation:
-
-[📄 View Full Technical Guide (Google Drive)](https://docs.google.com/document/d/1_5Lt2o4yYnwDdJkwNVkzcrS0I1ZkqhTu/edit?usp=sharing&ouid=100431925273316780165&rtpof=true&sd=true)
