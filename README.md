@@ -45,7 +45,9 @@ Sensor → nRF9151 → LTE → MQTT Broker (EMQX) → GCP → MongoDB
 4. Data is formatted into JSON
 5. MQTT publishes data to EMQX broker
 6. Backend stores data in MongoDB
-![System Architecture](docs/images/dataflow.png)
+<p align="center">
+  <img src="docs/images/dataflow.png" width="700"/>
+</p>
 ---
 
 ## Tech Stack
